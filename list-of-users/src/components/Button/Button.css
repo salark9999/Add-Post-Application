@@ -1,0 +1,15 @@
+.guzik {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: blue;
+}
+.guzik:hover {
+    background-color: blue;
+    color: white;
+}
+
+.guzik[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}

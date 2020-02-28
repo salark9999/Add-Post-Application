@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(108, 224, 108);
+    border-radius: 5px;
+}
+
+.header h2 {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.header .buttons {
+    padding: 0 10px;
+}
+
